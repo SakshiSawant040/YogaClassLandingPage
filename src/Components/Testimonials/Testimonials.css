@@ -1,0 +1,60 @@
+.testimonials{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    /* background: linear-gradient(rgba(161, 130, 130, 0.41),rgb(251, 250, 250)); */
+    
+}
+.testimonials h1{
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 150px;
+    color: rgb(98, 3, 38);
+    font-size: 60px;
+}
+.testm-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.testm{
+    width: 400px;
+    /* background-color: rgba(218, 196, 205, 0.7); */
+    padding: 15px 5px;
+    box-shadow: 0px 3px 15px rgba(4, 169, 251, 0.097);
+    transition: all;
+    transition-duration: 1s;
+}
+.testm:hover{
+    transform: translateY(6px);
+}
+.user-info{
+    display: flex;
+}
+.user-info p{
+    font-weight: 100;
+    color: rgba(0, 81, 255, 0.515);
+}
+
+.user-info img{
+    width: 40PX;
+    height: 40PX;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.username{
+    display: flex;
+}
+.username h3{
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 48);
+}
+.username span{
+    color: rgb(4, 121, 200);
+    margin-left: 10px;
+}
+.msg{
+    margin: 20px 2px;
+}
